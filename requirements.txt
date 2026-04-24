@@ -1,0 +1,7 @@
+openai>=1.0.0
+moviepy>=1.0.3
+pydub>=0.25.1
+transformers>=4.30.0
+torch>=2.0.0
+keybert>=0.8.0
+python-dotenv>=1.0.0
