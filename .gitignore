@@ -20,7 +20,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
+# 仮想環境
 venv/
 ENV/
 env/
@@ -32,11 +32,11 @@ env/
 *.swo
 *~
 
-# Environment variables
+# 環境変数
 .env
 .env.local
 
-# Output files
+# 出力ファイル
 output/
 *.wav
 *.mp3

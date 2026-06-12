@@ -22,9 +22,9 @@ def test_imports():
     for lib_name, lib_display in libraries:
         try:
             __import__(lib_name)
-            print(f"✅ {lib_display} - OK")
+            print(f"✅ {lib_display} - 成功")
         except ImportError as e:
-            print(f"❌ {lib_display} - FAILED")
+            print(f"❌ {lib_display} - 失敗")
             failed.append((lib_name, str(e)))
 
     print("\n" + "="*50)
